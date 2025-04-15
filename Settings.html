@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta charset="utf-8">
+
+	<!-- Page Title -->
+	<title>Settings | DeepCheck</title>
+
+	<!-- Meta Tags -->
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+	<meta content="DeepCheck" name="author">
+
+	<!-- FavIcon -->
+	<link rel="icon" href="assets/media/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" href="assets/media/favicon.png" type="image/png">
+
+	<!-- Viewport Meta -->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+	<!-- CSS Links -->
+
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body class="fixed-left">
+	<!-- Begin page -->
+	<div id="wrapper">
+		<!-- Start Left Sidebar -->
+		<div class="left side-menu">
+			<button class="button-menu-mobile button-menu-mobile-topbar open-left waves-effect" type="button"><img
+					src="assets/media/icons/close.svg"></button>
+			<!-- Start Logo -->
+			<div class="topbar-left">
+				<div class="pl-4">
+					<a class="logo" href="javascript:void(0);"><img alt="" class="logo"
+							src="assets/media/Deepcheck-Logo.svg"></a>
+				</div>
+			</div>
+			<!-- End Logo -->
+			<!-- Start Sidebar -->
+			<div class="sidebar-inner side-menuScroll">
+				<div id="sidebar-menu">
+					<ul>
+						<li>
+							<a class="" href="javascript:void(0);"><img src="assets/media/icons/Dashboard.svg" />
+								<span>Dashboard</span></a>
+						</li>
+
+						<li>
+							<a class="" href="javascript:void(0);"><img src="assets/media/icons/Onboard.svg" />
+								<span>Onboard</span></a>
+						</li>
+
+						<li class="has_sub">
+							<a class="" href="javascript:void(0);"><img src="assets/media/icons/sVault.svg" />
+								<span>sVault <span class="free-badge-hide">free</span></span> <span class="float-right"><img class="arrow" src="assets/media/icons/Right-Arrow.svg" /></span></a>
+							<ul class="list-unstyled">
+								<li>
+									<a href="javascript:void(0);">Check your invoice <span class="free-badge">free</span></a>
+								</li>
+								<li>
+									<a href="Supplier-Verification.html">Supplier verification</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="" href="LiveProtect.html"><img src="assets/media/icons/LiveProtect.svg" />
+								<span>LiveProtect</span></a>
+						</li>
+						<li>
+							<a class="" href="javascript:void(0);"><img src="assets/media/icons/Detector.svg" /><span>Detector</span></a>
+						</li>
+						<li>
+							<a class="" href="Enterprise.html"><img src="assets/media/icons/Enterprise.svg" /><span>Enterprise</span></a>
+						</li>
+						<li>
+							<a class="active" href="javascript:void(0);"><img src="assets/media/icons/Settings.svg" /><span>Settings</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- End Sidebar -->
+		</div>
+		<!-- Left Sidebar End -->
+		<!-- Start right Content -->
+		<div class="content-page">
+			<!-- Start content -->
+			<div class="content">
+				<!-- Start Top Bar -->
+				<div class="topbar">
+					<nav class="navbar-custom">
+						<ul class="nav-right">
+							<li class="notification-icon">
+								<div class="dropdown-primary dropdown">
+									<div class="" data-toggle="dropdown" aria-expanded="false">
+										<img src="assets/media/icons/Notification.svg">
+										<span class="badge notification">5</span>
+									</div>
+								</div>
+							</li>
+							<li class="message-icon">
+								<div class="dropdown-primary dropdown">
+									<div class="" data-toggle="dropdown" aria-expanded="false">
+										<img src="assets/media/icons/Message.svg">
+										<span class="badge message">3</span>
+									</div>
+								</div>
+							</li>
+							<li class="user-profile">
+								<div class="dropdown-primary dropdown">
+									<div class="" data-toggle="dropdown">
+										<img src="assets/media/users/Bitmap.png" class="img-radius" alt="User-Profile-Image">
+										<span class="ml-2">Micheal Smith</span>
+										<img class="down-arrow" src="assets/media/icons/Down-Arrow.svg">
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="list-inline menu-left mb-0">
+							<li class="float-left">
+								<button class="button-menu-mobile open-left pl-4"><img src="assets/media/icons/menu.svg"></button>
+							</li>
+						</ul>
+						<div class="clearfix"></div>
+					</nav>
+				</div>
+				<!-- End Top Bar -->
+				<!-- Start page content wrapper -->
+				<div class="page-content-wrapper">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="card">
+									<div class="card-body">
+										<div class="row p-0">
+											<div class="col-lg-12">
+												<nav>
+													<div class="nav nav-tabs" id="nav-tab" role="tablist">
+														<a class="nav-item nav-link active" id="User-Management-tab" data-toggle="tab" href="#User-Management" role="tab" aria-controls="User-Management" aria-selected="true">User Management</a>
+														<a class="nav-item nav-link" id="Billing-Information-tab" data-toggle="tab" href="#Billing-Information" role="tab" aria-controls="Billing-Information" aria-selected="false">Billing Information</a>
+														<a class="nav-item nav-link" id="Sync-Client-tab" data-toggle="tab" href="#Sync-Client" role="tab" aria-controls="Sync-Client" aria-selected="false">Sync client</a>
+													</div>
+												</nav>
+												<div class="tab-content user-management" id="nav-tabContent">
+
+													<div class="tab-pane  px-md-5 fade show active" id="User-Management" role="tabpanel" aria-labelledby="User-Management-tab">
+														<form>
+															<div class="row pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220">
+																	<div class="d-inline-block">
+																		<div class="user-management-img mb-2">
+																			<img src="assets/media/user-management/bmw_logo.png" />
+																		</div>
+																		<div class="d-flex justify-content-between">
+																			<a href="javascript:void(0);">Change</a>
+																			<a href="javascript:void(0);">Delete</a>
+																		</div>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="d-inline-block">
+																		<div class="">
+																			<h4 class="font-weight-bold mb-1"> Sainsbury's</h4>
+																			<p class="account-number mb-2">Account no
+																				<span>12345678</span></p>
+																			<div class="d-flex tab-row-label ">
+																				<label class="language min-width-220 align-self-center">language</label>
+																				<select class="" data-size="5" data-width="fit">
+																					<option>English (UK)</option>
+																					<option>Español</option>
+																					<option>English (USA)</option>
+																					<option>French</option>
+																					<option>German</option>
+																					<option>Español</option>
+																				</select>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Companies house
+																		</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Registered-Number">Registered Number</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0">
+																	<div class="tab-row-value d-flex justify-content-between">
+																		<p class="">3433434343434343</p>
+																		<a href="javascript:void(0);" class="Verify">Verify</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Tax information</h5>
+																	</div>
+																</div>
+
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="VAT-Number">VAT number</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">121212121212</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Verify">Verify</a>
+																	</div>
+
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Address</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Address-1">Address 1</label>
+																		<label class="Address-2">Address 2</label>
+																		<label class="Post-Code">Post code/Zip</label>
+																		<label class="City">City</label>
+																		<label class="Country">Country</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">Lorem ipsum dolor visi</p>
+																		<p class="">Lorem ipsum dolor visi</p>
+																		<p class="">Lorem ipsum dolor visi</p>
+																		<p class="">Lorem ipsum dolor visi</p>
+																		<p class="">Lorem ipsum dolor visi</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Bank Information </h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="IBAN">IBAN</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">*************32</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Verify">Verify</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Office</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Phone-Number">Phone number</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">020-123456547897</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Web address</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="URL">URL</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class=""><a href="https://www.dingdong.com">https://www.dingdong.com</a>
+																		</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">User</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Your-Name">Your name</label>
+																		<label class="Sign-In-Email">Sign-In Email</label>
+																		<label class="Direct-Phone-number mb-2">Your Direct Phone number</label>
+																		<label class="Password">Password</label>
+																		<label class="Confirm-Password">Confirm-Password</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">Ella Bella Pallom</p>
+																		<p class="">john@doguh.com</p>
+																		<p class="mb-2">123456778890</p>
+																		<p class="">*******************</p>
+																		<p class="">*******************</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit mb-5 d-block">Edit</a>
+																		<a href="javascript:void(0);" class="Edit d-block">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Sync client</h5>
+																	</div>
+																</div>
+
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Connected">Connected</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<input type="checkbox" class="cursor-pointer" aria-label="Checkbox for following text input">
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Invitations</h5>
+																	</div>
+																</div>
+
+																<div
+																	class="tab-col-2 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-label">
+																		<label class="Invitations-Onboarding">Onboarding</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="invitations-note mb-4">
+																			<span>Dear Sir,</span>
+																			<span class="mb-2">We have asked
+																				<a>DEEPCHECK</a> to help us doing
+																				onboarding of our suppliers where they
+																				make sure
+																				all data is verified by our supplier
+																				themselves.</span>
+
+																			<span class="mb-2">You simply click here,
+																				<a>&lt;HASHED link&gt;</a> and follow
+																				the simple process.</span>
+
+																			<span>We understand this can be perceived as
+																				a spam email to fish for your data.
+																			</span>
+																			<span class="mb-2">For this please contact
+																				me &lt;First Name&gt; &lt;Last Name&gt;
+																				on email &lt;person email&gt; or give me
+																				a call on &lt;phone number&gt; and I can
+																				ensure it is correct.</span>
+
+																			<span>Kind regards,</span>
+																			<span>&lt;First Name&gt; &lt;Last Name&gt;</span>
+																		</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																</div>
+
+																<div
+																	class="tab-col-2 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-label">
+																		<label class="Existing-Suppliers">Existing Suppliers</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="invitations-note">
+																			<span>Dear Sir,</span>
+																			<span class="mb-2">Due to a lot of fraud in
+																				the market we have asked
+																				<a>DEEPCHECK</a> to help us doing
+																				onboarding of our suppliers where they
+																				make sure
+																				all data is verified by our supplier
+																				themselves.</span>
+
+																			<span class="mb-2">You simply click here,
+																				<a>&lt;HASHED link&gt;</a> and follow
+																				the simple process.</span>
+
+																			<span class="mb-2">For this please contact
+																				me &lt;First Name&gt; &lt;Last Name&gt;
+																				on email &lt;person email&gt; or give me
+																				a call on &lt;phone number&gt; and I can
+																				ensure it is correct.</span>
+
+																			<span>Kind regards,</span>
+																		</p>
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Onboarding</h5>
+																	</div>
+																</div>
+
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Onboarding mb-3">Onboarding</label>
+																		<label class="ID-Document mb-3">ID-Document</label>
+																		<label class="Utility-Bill mb-3">Utility bill upload</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value mt-n3">
+																		<div class="form-check mb-3">
+																			<input class="form-check-input cursor-pointer" type="checkbox" value="" id="onboarding-area" required>
+																			<label class="cursor-pointer" for="onboarding-area"> Show only the onboarding area </label>
+																		</div>
+
+																		<div class="form-check mb-3">
+																			<input class="form-check-input cursor-pointer" type="checkbox" value="" id="id-verification" required>
+																			<label class="cursor-pointer" for="id-verification"> User Id verification in the app. Default and can not be removed</label>
+																		</div>
+
+																		<div class="form-check">
+																			<input class="form-check-input cursor-pointer" type="checkbox" value="" id="utility-document" required>
+																			<label class="cursor-pointer" for="utility-document"> If you want them to upload a utility document to verify their living address</label>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+														</form>
+
+													</div>
+
+													<div class="tab-pane px-md-5 billing-information fade" id="Billing-Information"  aria-labelledby="Billing-Information-tab">
+														<form >
+															  <div class="d-flex mt-3 flex-wrap align-items-center">
+																<div class="text-center mb-0" data-toggle="modal" data-target="#Pricing-Plan">
+																	<div class="selected-subscription subscription-box border cursor-pointer">
+																		<h1 class="font-weight-lighter">Single</h1>
+																		<p>1 Check</p>
+																	</div>
+																	<div class="wrap d-flex justify-content-center align-items-center">
+																		<p class="subscription-price"> € 9.99</p>
+																		<p class="subscription-duration">/check</p>
+																	</div>
+																</div>
+																
+																<div class="text-center mb-0" data-toggle="modal" data-target="#Pricing-Plan">
+																	<div class=" subscription-box border cursor-pointer ml-4">
+																		<h1 class="weight font-weight-lighter">Small</h1>
+																		<p>10 Checks</p>
+																	</div>
+																	<div class="wrap d-flex justify-content-center align-items-center text-center ml-4">
+																		<p class="subscription-price"> € 23.59</p>
+																		<p class="subscription-duration">/Month</p>
+																	</div>
+																</div>
+																
+																<div class="text-center mb-0" data-toggle="modal" data-target="#Pricing-Plan">
+																	<div class="subscription-box border cursor-pointer ml-4">
+																		<h1 class="font-weight-lighter">Median</h1>
+																		<p>100 Checks</p>
+																	</div>
+																	<div class="wrap d-flex justify-content-center align-items-center ml-4">
+																		<p class="subscription-price"> € 49.99</p>
+																		<p class="subscription-duration">/Month</p>
+																	</div>
+																</div>
+																<div class="text-center mb-0" data-toggle="modal" data-target="#Pricing-Plan">
+																	<div class="subscription-box border cursor-pointer ml-4">
+																		<h1 class="font-weight-lighter">Large</h1>
+																		<p>1000 Checks</p>
+																	</div>
+																	<div class="wrap d-flex justify-content-center align-items-center ml-4">
+																		<p class="subscription-price"> € 99.99</p>
+																		<p class="subscription-duration">/Month</p>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div
+																	class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Charges</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-260">
+																	<div class="tab-row-label">
+																		<label class="Next-Charge-Date">Next charge date: <span>31/08/2020</span></label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<h6 class="mb-0">Amount: <span>EUR 23.59</span></h6>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Billing Information</h5>
+																	</div>
+																</div>
+
+																<div class="tab-col-2 min-width-260">
+																	<div class="tab-row-label">
+																		<label class="Same-Information" style="line-height: 1;">Use same information<br />as for the user name</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<input type="checkbox" class="cursor-pointer" checked aria-label="Checkbox for following text input">
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Edit">Edit</a>
+																	</div>
+																</div>
+															</div>
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																</div>
+
+																<div class="tab-col-2 min-width-260">
+																	<div class="tab-row-label">
+																		<label class="Currency">Currency</label>
+																	</div>
+																</div>
+
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<select class="" data-size="5" data-width="fit">
+																			<option>EURO</option>
+																			<option>DOLLAR</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Payment Information</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-260">
+																	<div class="tab-row-label">
+																		<label class="Full-name">Full name</label>
+																		<label class="Card-Type mt-2 mb-2">Type</label>
+																		<label class="Card-Number">Card number</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<p class="">Ella Bella Pallom</p>
+																		<select class="mt-2 mb-2" data-size="5" data-width="fit">
+																			<option>VISA</option>
+																			<option>MASTER CARD</option>
+																		</select>
+																		<p class="">XXXX XXXX XXXX XX34</p>
+																	</div>
+																	<div class="float-right d-flex justify-content-between text-right flex-column">
+																		<a href="javascript:void(0);" class="Edit"  data-toggle="modal" data-target="#Payment-Information">Edit</a>
+																		<a href="javascript:void(0);" class="Change-Card mt-4"  data-toggle="modal" data-target="#Payment">Change card</a>
+																	</div>
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Automation</h5>
+																	</div>
+																</div>
+
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Automatic">Automatic top up </label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<input type="checkbox" class="cursor-pointer" checked aria-label="Checkbox for following text input">
+																	</div>
+																	
+																</div>
+															</div>
+															<hr class="row-divider" />
+															<div class="row d-flex align-items-center pl-4 pr-4 mt-3">
+																<div class="tab-col-1 min-width-220 d-flex align-self-start">
+																	<div class="tab-row-title">
+																		<h5 class="font-weight-bold">Cancel account</h5>
+																	</div>
+																</div>
+																<div class="tab-col-2 min-width-220">
+																	<div class="tab-row-label">
+																		<label class="Delete-Account">Delete account</label>
+																	</div>
+																</div>
+																<div class="tab-col-3 col p-0  d-flex justify-content-between">
+																	<div class="tab-row-value">
+																		<input type="checkbox" class="cursor-pointer" aria-label="Checkbox for following text input">
+																	</div>
+																	<div class="float-right">
+																		<a href="javascript:void(0);" class="Cancel">Cancel</a>
+																	</div>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane px-md-5 fade" id="Sync-Client" role="tabpanel"
+														aria-labelledby="Sync-Client-tab">
+														<div class="tab-title mt-4 mb-5">
+															<h6 class="font-weight-bold">Download</h6>
+														</div>
+														<div class="d-flex ">
+															<div class="client-box text-center">
+																<a href="javascript:void(0)"><img src="assets/media/sync-client/Sync-Client.png" class="mb-1" alt="" />
+																	<h6 class="font-weight-bold">Windows client</h6>
+																</a>
+															</div>
+															<div class="client-box text-center">
+																<a href="javascript:void(0)"><img src="assets/media/sync-client/Sync-Client.png" class="mb-1" alt="" />
+																	<h6 class="font-weight-bold">Mac client</h6>
+																</a>
+															</div>
+															<div class="client-box text-center">
+																<a href="javascript:void(0)"><img src="assets/media/sync-client/Sync-Client.png" class="mb-1" alt="" />
+																	<h6 class="font-weight-bold">Linux client</h6>
+																</a>
+															</div>
+														</div>
+														<div class="install-note mt-5 col-xl-8 col-lg-12 p-0">
+															<p>To install the client for your Desktop please click the
+																type of Desktop you are working on. The client then
+																installs
+																into your machine and you can start syncing and
+																uploading invoices. We will then analyse them
+																automatically.
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Page content Wrapper -->
+				</div>
+				<!-- End content -->
+
+			</div>
+			<!-- End Right content -->
+		</div>
+
+	</div>
+		<!-- END wrapper -->
+
+		<!-- Start Pricing Plan Modal -->
+		<div class="modal fade" id="Pricing-Plan" tabindex="-1" role="dialog" aria-labelledby="Pricing-PlanLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content d-flex">
+					<div class="modal-header mt-5 p-0 align-self-center text-center border-0">		
+							<h3>Over Pricng Plan</h3>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<img src="assets/media/icons/close.svg">
+									  </button>
+					</div>
+					<div class="modal-body">
+
+						<div class="text-center mb-5">With our authentication checking you can check your document/account/ID verification if they are real or manipulated minutes</div>
+
+						<div class="d-flex flex-wrap justify-content-center align-items-center">
+							<div class="text-center mb-0">
+								<div class="selected-subscription subscription-box border">
+									<h1 class="font-weight-lighter">Single</h1>
+									<p>1 Check</p>
+								</div>
+								<div class="wrap d-flex justify-content-center align-items-center">
+									<p class="subscription-price"> &euro; 9.99</p>
+									<p class="subscription-duration">/check</p>
+								</div>
+							</div>
+
+							<div class="text-center mb-0">
+								<div class=" subscription-box border ml-4">
+									<h1 class="weight font-weight-lighter">Small</h1>
+									<p>10 Checks</p>
+								</div>
+								<div class="wrap d-flex justify-content-center align-items-center text-center ml-4">
+									<p class="subscription-price"> &euro; 23.59</p>
+									<p class="subscription-duration">/Month</p>
+								</div>
+							</div>
+							<div class="text-center mb-0">
+								<div class="subscription-box border ml-4">
+									<h1 class="font-weight-lighter">Median</h1>
+									<p>100 Checks</p>
+								</div>
+								<div class="wrap d-flex justify-content-center align-items-center ml-4">
+									<p class="subscription-price"> &euro; 49.99</p>
+									<p class="subscription-duration">/Month</p>
+								</div>
+
+							</div>
+							<div class="text-center mb-0">
+								<div class="subscription-box border ml-4">
+									<h1 class="font-weight-lighter">Large</h1>
+									<p>1000 Checks</p>
+								</div>
+								<div class="wrap d-flex justify-content-center align-items-center ml-4">
+									<p class="subscription-price"> &euro; 99.99</p>
+									<p class="subscription-duration">/Month</p>
+								</div>
+							</div>
+
+
+						</div>
+
+						<div class="text-center mt-4 mb-0">
+							<p>You can upgrade your Subscription later. Please contect us if you want big volumes or have it automated <br /> we can provide you with our API connections too</p>
+						</div>
+					</div>
+					<div class="modal-footer justify-content-start border-0 mt-0">
+						<img class="logo mb-3 " src="assets/media/icons/warning.svg" alt="" width="20px" height="20px">
+						<p class="text text-left ml-2">You need to purchase a subscription before giong ahead</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Pricing Plan Modal -->
+
+
+			<!-- Start Payment Modal -->
+			<div class="modal fade" id="Payment" tabindex="-1" role="dialog" aria-labelledby="PaymentLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content d-flex">
+						<div class="modal-header mt-5 p-0 align-self-center text-center border-0">		
+								<h3>Payment</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<img src="assets/media/icons/close.svg">
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="text-center mb-5">Please select a Payment method for purchange the subscription. It won’t take too much time.</div>
+							<div class="d-flex pt-4 pb-5 mb-5 flex-wrap justify-content-center align-items-center">
+								<div class="text-center mb-0">
+									<div class="selected-subscription payment-box border">
+										<img src="assets/media/Debit-Credit-Card.png" alt="" class="w-100">
+										<h3 class="font-weight-lighter">Debit or Credit Card</h3>
+									</div>
+								</div>
+								<div class="text-center mb-0">
+									<div class="payment-box border ml-4">
+										<img src="assets/media/paypal.png" alt="" class="w-100">
+										<h3 class="font-weight-lighter text-blue">PayPal</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Payment Modal -->
+
+			<!-- Start Payment Information Modal -->
+			<div class="modal fade" id="Payment-Information" tabindex="-1" role="dialog" aria-labelledby="Payment-InformationLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg">
+					<div class="modal-content d-flex">
+						<div class="modal-header mt-5 p-0 align-self-center text-center border-0">		
+								<h3>Payment Information</h3>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<img src="assets/media/icons/close.svg">
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="text-center mb-1">Please select a Payment method for purchange the subscription. It won’t take too much time.</div>
+							<form class="form mb-4 px-5 py-4 rounded">
+
+								<div class="row mb-4">
+									<div class="col">
+										<label for="name">Card Holder Name</label>
+										<input type="text" class="form-control input" placeholder="Michel sem">
+									</div>
+									<div class="col">
+										<label for="Card-Number">Card Number</label>
+										<input type="text" placeholder="Number" id="Card-Number" class="form-control">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<label for="Expiry-Date">Expiry Date</label>
+										<input type="text" class="form-control" id="Expiry-Date" placeholder="Month | Year">
+									</div>
+									<div class="col">
+										<label for="CVV-Pin">CVV/PIN</label>
+										<input type="text" class="form-control" id="CVV-Pin" placeholder="Code">
+									</div>
+								</div>
+							</form>
+
+							<div class="text-center">
+								<button type="button" class="btn btn-lg-primary">Next</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Payment Information Modal -->
+	
+
+		<!--Jquery Js -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!--Popper Js -->
+		<script src="assets/js/popper.min.js"></script>
+		<!--Bootstrap Js -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!--NiceScroll Js -->
+		<script src="assets/js/jquery.nicescroll.js"></script>
+		<!-- Custom js -->
+		<script src="assets/js/custom.js"></script>
+		<!-- SelectPicker js -->
+		<script src="assets/js/bootstrap-select.min.js"></script>
+
+		<script type="text/javascript">
+			$(function () {
+				$('select').selectpicker();
+			});
+		
+		</script>
+
+</body>
+
+</html>
